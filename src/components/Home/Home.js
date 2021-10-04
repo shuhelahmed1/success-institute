@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
+import { Row } from 'react-bootstrap';
 import HomeComponents from '../HomeComponents/HomeComponents';
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
           .then(data => setHomeComponents(data))
       }, [])
     return (
-        <div>
+            <Row xs={1} md={2} className="g-4 w-75 m-auto">
             {
                 homeComponents.map(homeComponent => <HomeComponents
                 key={homeComponent.key}
@@ -19,7 +20,7 @@ const Home = () => {
                 homeComponentImg={homeComponent.img}
                 ></HomeComponents>)
             }
-        </div>
+</Row>
     );
 };
 

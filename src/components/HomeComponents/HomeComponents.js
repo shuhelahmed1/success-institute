@@ -1,17 +1,20 @@
 import React from 'react';
+import { Card, Col } from 'react-bootstrap';
 import './HomeComponents.css';
 
 const HomeComponents = (props) => {
     return (
-        <div className='home-components'>
-            <div>
-            <img src={props.homeComponentImg} alt="" />
-            </div>
-           <div>
-            <h2>Course: {props.homeComponentName}</h2>
-            <h3>Course fee: ${props.homeComponentPrice}</h3>
-           </div>
-        </div>
+        <Col>
+      <Card className='home-card'>
+        <Card.Img variant="top" src={props.homeComponentImg} />
+        <Card.Body>
+          <Card.Title>Course: {props.homeComponentName}</Card.Title>
+          <Card.Text>
+          Course fee: ${props.homeComponentPrice}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>  
     );
 };
 
