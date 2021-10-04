@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path="/">
               <Home></Home>
+          </Route>
+          <Route path="/aboutus">
+              <AboutUs></AboutUs>
           </Route>
             <Route path='/contact'>
               <ContactUs></ContactUs>
