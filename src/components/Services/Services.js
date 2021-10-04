@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import Service from '../Service/Service';
 
 const Services = () => {
@@ -7,13 +7,12 @@ const Services = () => {
     useEffect(()=>{
         fetch('./servicesData.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setServices(data))
     } , [])
     return (
         <div>
             {
-                services.map(service => <Service key={service.key}
-                serviceName={service.name}></Service>)
+                services.map(service => <Service serviceName={service.name}></Service>)
             }
         </div>
     );
