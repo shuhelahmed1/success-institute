@@ -7,6 +7,7 @@ const Service = (props) => {
             <img src={props.serviceImg} alt="" />
             <h2>{props.serviceName}</h2>
             <h2>Price: $ {props.servicePrice}</h2>
+            <button className='purchase-btn'>Purchase Now</button>
         </div>
     );
 };
