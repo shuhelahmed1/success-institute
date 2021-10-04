@@ -1,0 +1,30 @@
+[
+    { "key":1,
+      "name": "IELTS",
+      "duration": 5,
+      "centre": "Sylhet",
+      "price": 100,
+      "img":"https://media.istockphoto.com/photos/red-word-letters-ielts-on-white-pedestal-picture-id1196117817?s=612x612"
+    },
+    { "key":2,
+      "name": "GRE",
+      "duration": 6,
+      "centre": "Sylhet",
+      "price": 200,
+      "img":"https://s3.amazonaws.com/scholarden/blog_posts/images/000/000/001/original/logo_gre.jpg?1536162556"
+    },
+    { "key":3,
+      "name": "Web Developement",
+      "duration": 4,
+      "centre": "Sylhet",
+      "price": 150,
+      "img":"https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    { "key":4,
+      "name": "Graphics Design",
+      "duration": 2,
+      "centre": "Sylhet",
+      "price": 100,
+      "img":"https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+]

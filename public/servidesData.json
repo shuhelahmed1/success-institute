@@ -1,0 +1,50 @@
+[
+    { "key":1,
+      "name": "IELTS",
+      "duration": 5,
+      "centre": "Sylhet",
+      "price": 100
+    },
+    { "key":2,
+      "name": "GRE",
+      "duration": 6,
+      "centre": "Sylhet",
+      "price": 200
+    },
+    { "key":3,
+      "name": "Web Developement",
+      "duration": 4,
+      "centre": "Sylhet",
+      "price": 150
+    },
+    { "key":4,
+      "name": "Graphics Design",
+      "duration": 2,
+      "centre": "Sylhet",
+      "price": 100
+    },
+    { "key":5,
+      "name": "Spoken English",
+      "duration": 4,
+      "centre": "Sylhet",
+      "price": 100
+    },
+    { "key":6,
+      "name": "Learn French",
+      "duration": 3,
+      "centre": "Sylhet",
+      "price": 180
+    },
+    { "key":7,
+      "name": "Learn Spanish",
+      "duration": 4,
+      "centre": "Sylhet",
+      "price": 120
+    },
+    { "key":8,
+      "name": "Digital Marketing",
+      "duration": 3,
+      "centre": "Sylhet",
+      "price": 140
+    }
+  ]
