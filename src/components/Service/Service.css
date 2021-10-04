@@ -1,20 +1,11 @@
-.service-section{
-    background-color: rgba(243, 33, 33, 0.287);
-    border: 5px;
+.service-card{
     padding: 10px;
-    border-radius: 10px;
-    margin: 5px;
 }
-.service-section img{
-    width: 90%;
+.service-card img{
+    width: 100%;
     height: 250px;
     border-radius: 5px;
 }
-.purchase-btn{
-    border: 1px solid grey;
-    cursor: pointer;
-    padding: 5px 8px;
-    border-radius: 3px;
-    background-color: lawngreen;
-    font-size: 14px;
+.card-body{
+    background-color: rgba(42, 120, 165, 0.164);
 }
