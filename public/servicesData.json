@@ -3,48 +3,56 @@
       "name": "IELTS",
       "duration": 5,
       "centre": "Sylhet",
-      "price": 100
+      "price": 100,
+      "img":"https://media.istockphoto.com/photos/red-word-letters-ielts-on-white-pedestal-picture-id1196117817?s=612x612"
     },
     { "key":2,
       "name": "GRE",
       "duration": 6,
       "centre": "Sylhet",
-      "price": 200
+      "price": 200,
+      "img":"https://s3.amazonaws.com/scholarden/blog_posts/images/000/000/001/original/logo_gre.jpg?1536162556"
     },
     { "key":3,
       "name": "Web Developement",
       "duration": 4,
       "centre": "Sylhet",
-      "price": 150
+      "price": 150,
+      "img":"https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     { "key":4,
       "name": "Graphics Design",
       "duration": 2,
       "centre": "Sylhet",
-      "price": 100
+      "price": 100,
+      "img":"https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     { "key":5,
       "name": "Spoken English",
       "duration": 4,
       "centre": "Sylhet",
-      "price": 100
+      "price": 100,
+      "img":"https://learnwithratanjha.com/wp-content/uploads/2019/11/1.jpg"
     },
     { "key":6,
       "name": "Learn French",
       "duration": 3,
       "centre": "Sylhet",
-      "price": 180
+      "price": 180,
+      "img":"https://images.pexels.com/photos/3721426/pexels-photo-3721426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     { "key":7,
       "name": "Learn Spanish",
       "duration": 4,
       "centre": "Sylhet",
-      "price": 120
+      "price": 120,
+      "img":"https://d1bvpoagx8hqbg.cloudfront.net/originals/tips-learn-spanish-eca8836418e67f6a4cab9d9ef833a43c.jpg"
     },
     { "key":8,
       "name": "Digital Marketing",
       "duration": 3,
       "centre": "Sylhet",
-      "price": 140
+      "price": 140,
+      "img":"https://images.unsplash.com/photo-1557838923-2985c318be48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1031&q=80"
     }
   ]
