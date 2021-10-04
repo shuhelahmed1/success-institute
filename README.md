@@ -1,6 +1,6 @@
-# website title
+# Success Institute
 
-[website link](https://success-institute.netlify.app/).
+[Visit our website](https://success-institute.netlify.app/).
 
 
 
