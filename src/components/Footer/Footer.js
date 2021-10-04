@@ -11,6 +11,14 @@ const Footer = () => {
                     <li>Sylhet</li>
                 </ul>
             </div>
+            <div className='footer-branch'>
+                <h2>Total Branches:</h2>
+                <ul>
+                    <li>Dhaka</li>
+                    <li>Chittagong</li>
+                    <li>Sylhet</li>
+                </ul>
+            </div>
             <div className='footer-contact'>
                 <h2>Contact Us:</h2>
                 <ul>

@@ -13,26 +13,28 @@ const Home = () => {
       }, [])
     return (
     <div>
+        <h2 className='m-3'>Offer running: </h2>
         <div className='discount-section d-grid'>
-        <div className='discount-component d-flex'>
-            <div>
-            <img src="https://image.shutterstock.com/image-vector/grey-discount-20-sale-background-600w-1075991594.jpg" alt="" />
+            <div className='discount-component d-flex'>
+                <div>
+                <img src="https://image.shutterstock.com/image-vector/grey-discount-20-sale-background-600w-1075991594.jpg" alt="" />
+                </div>
+                <div>
+                    <h2>1. IELTS</h2>
+                    <h2>2. GRE</h2>
+                </div>
             </div>
-            <div>
-                <h2>1. IELTS</h2>
-                <h2>2. GRE</h2>
+            <div className='discount-component d-flex'>
+                <div>
+                <img src="https://media.istockphoto.com/vectors/discount-sticker-sale-red-tag-isolated-vector-illustration-discount-vector-id831172744?s=612x612" alt="" />
+                </div>
+                <div>
+                    <h2>1. Spoken English</h2>
+                    <h2>2. Web Developement</h2>
+                </div>
             </div>
         </div>
-        <div className='discount-component d-flex'>
-            <div>
-            <img src="https://media.istockphoto.com/vectors/discount-sticker-sale-red-tag-isolated-vector-illustration-discount-vector-id831172744?s=612x612" alt="" />
-            </div>
-            <div>
-                <h2>1. Spoken English</h2>
-                <h2>2. Web Developement</h2>
-            </div>
-        </div>
-        </div>
+        <h2 className='m-3'>Special courses: </h2>
         <Row xs={1} md={2} className="g-4 w-75 m-auto">
                     {
                         homeComponents.map(homeComponent => <HomeComponents
