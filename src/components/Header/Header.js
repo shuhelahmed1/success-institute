@@ -12,7 +12,7 @@ const Header = () => {
         <div>
             <div className='site-name'>
                 <h1>Success Institute</h1>
-                <h2>Start your success journey from here</h2>
+                <h2>Start your success journey here</h2>
             </div>
             <nav className='nav-section'>
                 <NavLink className='navlink' activeStyle={activeStyle} to='/home'>Home</NavLink>
