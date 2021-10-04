@@ -3,7 +3,8 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <h2>didn't find the page</h2>
+            <h1>404 error....</h1>
+            <h2>Page not found ):</h2>
         </div>
     );
 };

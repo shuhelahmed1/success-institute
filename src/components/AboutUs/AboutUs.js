@@ -12,7 +12,7 @@ const AboutUs = () => {
     return (
         <div className='mt-3 mb-3'>
             <h1>Meet our tutors</h1>
-            <Row xs={1} md={2} className="g-4 w-75 m-auto">
+            <Row xs={1} md={2} className="g-4 w-50 m-auto">
             {
                 aboutUs.map(about=><About
                      aboutName={about.name}
