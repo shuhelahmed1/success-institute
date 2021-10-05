@@ -3,7 +3,6 @@ import { Card, Col } from 'react-bootstrap';
 import './About.css';
 
 const About = (props) => {
-    console.log(props)
     return (
             <Col>
             <Card className='about-card'>

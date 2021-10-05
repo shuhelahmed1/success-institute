@@ -1,3 +1,4 @@
+/* contact us top section css */
 .contact-top{
     align-items: center;
     justify-content: space-evenly;
@@ -6,6 +7,8 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* contact us bottom section css */
 .contact-bottom a{
     display: inline-block;
     margin: 0 20px;
