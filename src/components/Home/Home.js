@@ -34,8 +34,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <h2 className='m-3'>Special courses: </h2>
-        <Row xs={1} md={2} className="g-4 w-75 m-auto">
+        <h2 className='mt-4'>Special courses: </h2>
+        <Row xs={1} md={2} className="g-4 w-75 mx-auto my-4">
                     {
                         homeComponents.map(homeComponent => <HomeComponents
                         key={homeComponent.key}
