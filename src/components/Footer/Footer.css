@@ -1,18 +1,9 @@
 .footer-section{
     width: 90%;
-    margin: 10px auto;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(46, 38, 95, 0.753);
-    color: white;
     border-radius: 10px;
 }
-.footer-address ul{
-    list-style: none;
-}
-.footer-contact ul{
-    list-style: none;
-}
-.footer-branch ul{
+.footer-address ul, .footer-contact ul, .footer-branch ul{
     list-style: none;
 }

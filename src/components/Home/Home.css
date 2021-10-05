@@ -1,7 +1,6 @@
 .discount-section {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10px auto;
 }
 .discount-component{
     align-items: center;

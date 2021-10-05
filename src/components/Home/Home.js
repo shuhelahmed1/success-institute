@@ -14,7 +14,7 @@ const Home = () => {
     return (
     <div>
         <h2 className='m-3'>Offer running: </h2>
-        <div className='discount-section d-grid'>
+        <div className='discount-section d-grid mx-auto'>
             <div className='discount-component d-flex'>
                 <div>
                 <img src="https://image.shutterstock.com/image-vector/grey-discount-20-sale-background-600w-1075991594.jpg" alt="" />

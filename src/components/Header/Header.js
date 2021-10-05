@@ -10,11 +10,11 @@ const Header = () => {
 
     return (
         <div>
-            <div className='site-name'>
+            <div className='site-name p-3 m-auto my-3'>
                 <h1>Success Institute</h1>
                 <h2>Start your success journey here</h2>
             </div>
-            <nav className='nav-section'>
+            <nav className='nav-section mx-auto p-2'>
                 <NavLink className='navlink' activeStyle={activeStyle} to='/home'>Home</NavLink>
                 <NavLink className='navlink' activeStyle={activeStyle} to='/aboutus'>About Us</NavLink>
                 <NavLink className='navlink' activeStyle={activeStyle} to='/services'>Services</NavLink>

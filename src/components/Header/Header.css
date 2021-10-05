@@ -1,20 +1,15 @@
 .site-name{
     width: 90%;
     background-color: rgba(255, 127, 80, 0.678);
-    padding: 5px;
     border-radius: 10px;
-    margin: 10px auto;
 }
 
 .nav-section{
     width: 90%;
-    margin: 0 auto;
     background-color: rgba(137, 43, 226, 0.815);
     border-radius: 5px;
-    padding: 5px;
 }
 .nav-section .navlink{
-    color: black;
     text-decoration: none;
     padding: 5px 10px;
     font-size: 18px;
