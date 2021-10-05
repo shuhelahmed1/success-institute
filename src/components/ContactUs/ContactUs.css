@@ -19,4 +19,5 @@
 .contact-bottom a:hover{
     background-color: white;
     border: 1px solid blue;
+    color: blue;
 }
