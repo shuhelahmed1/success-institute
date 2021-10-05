@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <div>
-            <div className='site-name p-3 m-auto my-3'>
+            <div className='site-name p-3 mx-auto my-3'>
                 <h1>Success Institute</h1>
                 <h2>Start your success journey here</h2>
             </div>

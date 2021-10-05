@@ -1,4 +1,7 @@
+
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHashtag, faThumbsUp, faDove } from '@fortawesome/free-solid-svg-icons';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -16,11 +19,11 @@ const ContactUs = () => {
                     <h3>Address: Zindabazar, Sylhet</h3>
                 </div>
             </div>
-            <div>
-                <h2 className='m-3'>Check out our social media:</h2>
-                <a href="https://www.facebook.com"><img className='contact-social-icon' src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" alt="" /></a>   
-                <a href="https://www.twitter.com"><img className='contact-social-icon' src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="" /></a>   
-                <a href="https://www.instagram.com"><img className='contact-social-icon' src="https://fdn.gsmarena.com/imgroot/news/18/03/instagram-timeline-changes/-728/gsmarena_001.jpg" alt="" /></a>   
+            <div className='contact-bottom my-3'>
+                <h2 className='my-4'>Check out our social platform:</h2>
+                <a href="https://www.facebook.com"><FontAwesomeIcon icon={faThumbsUp} /></a> 
+                <a href="https://www.twitter.com"><FontAwesomeIcon icon={faDove} /></a>   
+                <a href="https://www.instagram.com"><FontAwesomeIcon icon={faHashtag} /></a>   
             </div>
         </div>
     );

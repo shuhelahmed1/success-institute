@@ -5,7 +5,7 @@ import './Service.css';
 const Service = (props) => {
     return (
         <Col className='service-col'>
-      <Card className='service-card'>
+      <Card className='service-card p-2'>
         <Card.Img variant="top" src={props.serviceImg} />
         <Card.Body className='card-body'>
           <Card.Title>{props.serviceName}</Card.Title>
